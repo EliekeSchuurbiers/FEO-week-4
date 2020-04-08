@@ -1,0 +1,49 @@
+body{
+  color: white;
+}
+
+a:link{
+color: paleturquoise;
+
+}
+a:hover{
+  color: lightblue;
+  font-weight: bold;
+}
+
+a.prijslijst:active{
+  color: red;
+  font-weight: initial;
+}
+a.contact:visited{
+  color: yellow;
+}
+
+input#tekst:focus{
+  background: green;
+  font-size: 20px;
+}
+
+
+ul{
+  background-color: darkblue;
+  list-style: none;
+  display: flex;
+  justify-content:space-between;
+  
+  }
+
+li{
+    display: inline;
+    
+  }
+
+li:hover{
+  background-color: lightblue;
+}
+.currentPage{
+  background-color: darkcyan;
+}
+input.tekst:focus{
+  background-color: aquamarine;
+}
