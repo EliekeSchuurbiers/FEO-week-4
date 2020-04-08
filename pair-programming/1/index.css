@@ -1,0 +1,38 @@
+body{
+    background: #c3cfe2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.testimonial{
+    background: white;
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px #888888;
+}
+
+p{
+    padding: 15px
+}
+img{
+    width: 100px;
+    border: white 3px solid;
+    margin: 0px 100px; 
+    border-radius: 50px;
+}
+
+.footer{
+    background: #686de0;
+    border-radius: 0px 0px 25px 25px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    height: 100px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p{
+    margin-top: 40px;
+}

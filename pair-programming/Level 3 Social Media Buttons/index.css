@@ -1,0 +1,73 @@
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+    }
+
+
+li:hover{
+    transform: translateX(-100px);
+    transition: rollout .3s ease-in-out;
+    animation-name: rollout;
+     
+}
+
+.social-media.blog {
+    background-color: #e17b77;
+    display: inline;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+}
+
+.social-media.facebook {
+    background-color: #3b5998;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+}
+
+.social-media.twitter {
+    background-color: #00aced;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+}
+
+.social-media.github {
+    background-color: #333;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+}
+
+.social-media.linkedin {
+    background-color: #007bb6;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+}
+
+.fa-laptop-code::before {
+    height: 30px;
+    width: 30px;
+    content: "\f5fc";
+}
+.fa-twitter::before {
+    content: "\f099";
+}
+.fa-linkedin-in::before {
+    content: "\f0e1";
+}
+.fa-facebook-f::before {
+    content: "\f39e";
+}
+.fa-github::before {
+    content: "\f09b";
+}
+
+@keyframes rollout{
+    from{width: 30px;}
+    to{ width: 100px;}
+}
